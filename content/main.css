@@ -268,7 +268,12 @@ table {
 @font-face {
     font-family: 'SwedenSans';
     src: url('fonts/swedensans/SwedenSans.eot');
-    src: url('fonts/swedensans/SwedenSans.eot?#iefix') format('embedded-opentype'),url('fonts/swedensans/SwedenSans.woff') format('woff'),url('fonts/swedensans/SwedenSans.ttf') format('truetype'),url('fonts/swedensans/SwedenSans.svg#wf') format('svg'),url('fonts/swedensans/SwedenSans.svgz#wf') format('svg');
+    src: url('fonts/swedensans/SwedenSans.eot?#iefix') 
+         format('embedded-opentype'), url('fonts/swedensans/SwedenSans.woff') 
+         format('woff'),url('fonts/swedensans/SwedenSans.ttf') 
+         format('truetype'),url('fonts/swedensans/SwedenSans.svg#wf') 
+         format('svg'),url('fonts/swedensans/SwedenSans.svgz#wf') 
+         format('svg');
 }
 
 .absolute-center {
@@ -5694,6 +5699,9 @@ body #container {
 }
 
 @media(max-width:979px) {
+    #kenburns {
+        display: none;
+    }
     #si-curtain-nav {
         height: 0;
     }
@@ -5767,6 +5775,9 @@ body #container {
 }
 
 @media only screen and (min-width:980px) {
+    #kenburns {
+        display: block;
+    }
     #si-curtain-nav .si-curtain-mobile {
         display: none !important;
     }
