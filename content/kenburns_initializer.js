@@ -1,7 +1,27 @@
 ﻿$(function () {
+    var kenburnsRoot = 'http://localhost:50876/content/kenburns/';
     $('#kenburns').kenburns({
-        images: ['http://localhost:50876/content/Baskent_Havuz_Bahce.jpg',
-                'http://localhost:50876/content/Baskent_Spor_Alanlari.jpg'
+        images: [
+            kenburnsRoot + 'IMG_0491.JPG',
+            kenburnsRoot + 'IMG_0492.JPG',
+            kenburnsRoot + 'IMG_0495.JPG',
+            kenburnsRoot + 'IMG_0499.JPG',
+            kenburnsRoot + 'IMG_0500.JPG',
+            kenburnsRoot + 'IMG_0503.JPG',
+            kenburnsRoot + 'IMG_0504.JPG',
+            kenburnsRoot + 'IMG_0505.JPG',
+            kenburnsRoot + 'IMG_0507.JPG',
+            kenburnsRoot + 'IMG_0509.JPG',
+            kenburnsRoot + 'IMG_0511.JPG',
+            kenburnsRoot + 'IMG_0514.JPG',
+            kenburnsRoot + 'IMG_0527.JPG',
+            kenburnsRoot + 'IMG_0529.JPG',
+            kenburnsRoot + 'IMG_0530.JPG',
+            kenburnsRoot + 'IMG_0531.JPG',
+            kenburnsRoot + 'IMG_0532.JPG',
+            kenburnsRoot + 'IMG_0533.JPG',
+            kenburnsRoot + 'IMG_0540.JPG',
+            kenburnsRoot + 'IMG_0541.JPG'
         ],
         frames_per_second: 30,
         display_time: 7000,
