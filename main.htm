@@ -31,8 +31,48 @@
     <!--<script type="text/javascript" src="./content/jquery.js"></script>-->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
     <script type="text/javascript" src="./content/display.js"></script>
-    <script type="text/javascript" src="./content/kenburns.js"></script>
-    <script type="text/javascript" src="./content/kenburns_initializer.js"></script>
+    <!--<script type="text/javascript" src="./content/kenburns.js"></script>
+        <script type="text/javascript" src="./content/kenburns_initializer.js"></script>-->
+    
+    <script type="text/javascript">
+        var kenburnsRoot = "./content/kenburns/",
+            images = [
+                kenburnsRoot + 'IMG_0491.JPG',
+                kenburnsRoot + 'IMG_0492.JPG',
+                kenburnsRoot + 'IMG_0495.JPG',
+                kenburnsRoot + 'IMG_0499.JPG',
+                kenburnsRoot + 'IMG_0500.JPG',
+                kenburnsRoot + 'IMG_0503.JPG',
+                kenburnsRoot + 'IMG_0504.JPG',
+                kenburnsRoot + 'IMG_0505.JPG',
+                kenburnsRoot + 'IMG_0507.JPG',
+                kenburnsRoot + 'IMG_0509.JPG',
+                kenburnsRoot + 'IMG_0511.JPG',
+                kenburnsRoot + 'IMG_0514.JPG',
+                kenburnsRoot + 'IMG_0527.JPG',
+                kenburnsRoot + 'IMG_0529.JPG',
+                kenburnsRoot + 'IMG_0530.JPG',
+                kenburnsRoot + 'IMG_0531.JPG',
+                kenburnsRoot + 'IMG_0532.JPG',
+                kenburnsRoot + 'IMG_0533.JPG',
+                kenburnsRoot + 'IMG_0540.JPG',
+                kenburnsRoot + 'IMG_0541.JPG'
+            ],
+            index = 0;
+
+        $(function() {
+            var switchImage = function() {
+                $("#article-header").css("background-image", "url(" + images[index] + ")");
+                index++;
+                if (index == images.length)
+                    index = 0;
+                
+                setTimeout(switchImage, 5000);
+            };
+
+            setTimeout(switchImage, 5000);
+        });
+    </script>
     
 
     <script type="text/javascript" charset="utf-8" async="" data-requirecontext="_" data-requiremodule="config" src="./content/config.js"></script>
@@ -201,15 +241,15 @@
                     </section>
                 </div>
 
-                <footer class="entry-meta">
+                <!--<footer class="entry-meta">
                     <div class="related-articles">
                         <div class="footer-content clearfix">
-                            <canvas id="kenburns" width="640" height="480">
+                            <canvas id="kenburns" width="1280" height="640">
                                 <p>Your browser doesn't support canvas!</p>
                             </canvas>
                         </div>
                     </div>
-                </footer>
+                </footer>-->
                 <footer class="yellow-footer">
                     <div class="content">
                         <div class="text-container">
