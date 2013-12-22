@@ -524,13 +524,14 @@ hr {
 }
 
 .breadcrumb {
-    margin: 25px 0 0 0;
+    margin: 0;
     position: absolute;
-    top: 35px;
+    top: 126px;
     text-align: left;
     z-index: 3;
     font-size: .765em;
-    padding: 10px 5% 11px 5%;
+    left: 0;
+    padding: 10px 25px 11px 25px;
     width: auto;
     display: none;
 }
@@ -1940,12 +1941,12 @@ nav.tags-menu li {
     }
 
 .single .logo {
-    position: relative;
+    position: absolute;
     margin-top: 30px;
-    top: 20px;
-    left: 0;
-    margin-left: 5%;
-    display: none;
+    top: 48px;
+    left: 25px;
+    margin: 0;
+    display: block;
     z-index: 3;
 }
 
@@ -5919,22 +5920,6 @@ body #container {
         .home .articles article.shortfact.yellow:hover {
             background-color: rgba(255,203,5,0.8);
         }
-
-    .breadcrumb {
-        margin: 0;
-        position: absolute;
-        top: 126px;
-        left: 0;
-        padding: 10px 25px 11px 25px;
-    }
-
-    .single .logo {
-        display: block;
-        position: absolute;
-        top: 48px;
-        left: 25px;
-        margin: 0;
-    }
 
     .single .left {
         display: none;
