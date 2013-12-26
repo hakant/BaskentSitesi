@@ -891,6 +891,11 @@ nav.tags-menu li {
             text-decoration: underline;
         }
 
+        .yellow-footer .text-container a.twitter-link {
+            text-decoration: none;
+            color: #00aae9;
+        }
+
         .yellow-footer .text-container .tag-line {
             font-size: .941em;
             font-family: 'ZurichBT-BoldCondensed';
@@ -1174,6 +1179,23 @@ nav.tags-menu li {
                         position: absolute;
                         background: url(../img/sprites.png) no-repeat;
                         background-position: -400px -650px;
+                        color: transparent;
+                        content: '';
+                    }
+
+                .yellow-footer .menu-footer-social-links-container ul li.phone a {
+                    width: 100%;
+                    height: 27px;
+                }
+
+                    .yellow-footer .menu-footer-social-links-container ul li.phone a:before {
+                        width: 27px;
+                        height: 27px;
+                        top: 0;
+                        left: 0;
+                        position: absolute;
+                        background: url(../img/sprites.png) no-repeat;
+                        background-position: -450px -650px;
                         color: transparent;
                         content: '';
                     }
