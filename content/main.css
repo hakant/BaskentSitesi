@@ -302,10 +302,15 @@ html {
 }
 
 body {
-    font-size: 106.3%;
+    /*font-size: 106.3%;
     font-family: 'ZurichBT-RomanCondensed';
     color: #222;
-    height: 100%;
+    height: 100%;*/
+
+    color: #333;
+    font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+    font-weight: 300;
+    font-size: 1.2em;
 }
 
     body.home, body.page-template-page-factsheets-php, body.single-article_collection {
@@ -339,7 +344,6 @@ h2, h3, h4 {
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
     font-style: normal;
-    font-family: 'ZurichBT-BoldCondensed';
 }
 
 strong, b {
@@ -2347,9 +2351,7 @@ nav.tags-menu li {
 
         .single header.entry-header .header-content h1 {
             margin: 0 0 35px 0;
-            text-transform: uppercase;
-            font-size: 2.5em;
-            font-family: 'SwedenSans';
+            font-size: 3.2em;
             font-weight: normal;
             max-width: 640px;
         }
@@ -2357,7 +2359,6 @@ nav.tags-menu li {
         .single header.entry-header .header-content p {
             margin: 0 0 45px 0;
             max-width: 550px;
-            font-family: 'ZurichBT-Roman';
         }
 
         .single header.entry-header .header-content .button {
@@ -2519,7 +2520,6 @@ nav.tags-menu li {
 }
 
     .segment h2 {
-        font-family: 'ActaDisplay-Medium';
         font-size: 1.412em;
         font-weight: normal;
     }
@@ -2622,7 +2622,6 @@ nav.tags-menu li {
         }
 
     .segment .only-text {
-        font-family: 'ZurichBT-Roman';
         margin: 0 auto;
     }
 
@@ -2667,6 +2666,7 @@ nav.tags-menu li {
 
     .segment .only-media + .image-text-container {
         margin-top: 17px;
+        font-size: 0.7em;
     }
 
     .segment.pdf-segment .si-pdf .files {
@@ -2724,7 +2724,7 @@ nav.tags-menu li {
     }
 
     .image-text-container .image-text p {
-        font-size: .765em;
+        font-size: .65em;
         margin: 0 0 11px 0;
     }
 
@@ -2734,7 +2734,7 @@ nav.tags-menu li {
         }
 
     .image-text-container .image-description p {
-        font-size: .765em;
+        font-size: .65em;
         margin: 0;
     }
 
@@ -5189,12 +5189,12 @@ body #container {
             }
 
             .single header.entry-header .header-content h1 {
-                font-size: 4.000em;
+                font-size: 3.2em;
                 line-height: 1.03em;
             }
 
             .single header.entry-header .header-content p {
-                font-size: 1.17em;
+                font-size: 1.1em;
                 line-height: 1.4em;
             }
 
@@ -5257,7 +5257,7 @@ body #container {
         }
 
             .segment .only-text h2 {
-                font-size: 2.118em;
+                font-size: 1.7em;
             }
 
             .segment .only-text h3 {
