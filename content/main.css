@@ -302,15 +302,11 @@ html {
 }
 
 body {
-    /*font-size: 106.3%;
-    font-family: 'ZurichBT-RomanCondensed';
-    color: #222;
-    height: 100%;*/
-
     color: #333;
     font-family: Georgia,Cambria,"Times New Roman",Times,serif;
     font-weight: 300;
     font-size: 1.2em;
+    height: 100%;
 }
 
     body.home, body.page-template-page-factsheets-php, body.single-article_collection {
@@ -2351,7 +2347,7 @@ nav.tags-menu li {
 
         .single header.entry-header .header-content h1 {
             margin: 0 0 35px 0;
-            font-size: 3.2em;
+            font-size: 2.1em;
             font-weight: normal;
             max-width: 640px;
         }
@@ -2638,7 +2634,7 @@ nav.tags-menu li {
         .segment .only-text p {
             margin: 0 0 30px 0;
             font-size: 1em;
-            line-height: 1.62em;
+            line-height: 1.5em;
         }
 
         .segment .only-text ul {
@@ -5257,7 +5253,7 @@ body #container {
         }
 
             .segment .only-text h2 {
-                font-size: 1.7em;
+                font-size: 1.8em;
             }
 
             .segment .only-text h3 {
