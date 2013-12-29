@@ -69,7 +69,6 @@ mark {
 }
 
 code, kbd, pre, samp {
-    font-family: monospace,serif;
     font-size: 1em;
 }
 
@@ -176,105 +175,6 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
-/*! @license
- * MyFonts Webfont Build ID 2579794, 2013-06-13T09:57:40-0400
- *
- * The fonts listed in this notice are subject to the End User License
- * Agreement(s) entered into by the website owner. All other parties are
- * explicitly restricted from using the Licensed Webfonts(s).
- *
- * You may obtain a valid license at the URLs below.
- *
- * Webfont: Zurich by Bitstream
- * URL: http://www.myfonts.com/fonts/bitstream/zurich/zurich/
- * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
- *
- * Webfont: Zurich Condensed by Bitstream
- * URL: http://www.myfonts.com/fonts/bitstream/zurich/condensed/
- * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
- *
- * Webfont: Zurich Bold Condensed by Bitstream
- * URL: http://www.myfonts.com/fonts/bitstream/zurich/bold-condensed/
- * Copyright: Copyright 1990-2003 Bitstream Inc. All rights reserved.
- *
- * Webfont: Acta Display Medium by DSType
- * URL: http://www.myfonts.com/fonts/dstype/acta-display/medium/
- * Copyright: Copyright (c) 2010 by Dino dos Santos _DSType. All rights reserved.
- * License: http://www.myfonts.com/viewlicense?type=web&buildid=2579794
- *
- * Â© 2013 MyFonts Inc
- */
-
-@font-face {
-    font-family: 'ZurichBT-Roman';
-    src: url('fonts/zurich/275D52_0_0.eot');
-    src: url('fonts/zurich/275D52_0_0.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/275D52_0_0.woff') format('woff'),url('fonts/zurich/275D52_0_0.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: 'zurich_btbold';
-    src: url('fonts/zurich/zurich_bt_bold-webfont.eot');
-    src: url('fonts/zurich/zurich_bt_bold-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/zurich_bt_bold-webfont.woff') format('woff'),url('fonts/zurich/zurich_bt_bold-webfont.ttf') format('truetype'),url('fonts/zurich/zurich_bt_bold-webfont.svg#zurich_btbold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'zurich_btitalic';
-    src: url('fonts/zurich/zurich_bt_italic-webfont.eot');
-    src: url('fonts/zurich/zurich_bt_italic-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/zurich_bt_italic-webfont.woff') format('woff'),url('fonts/zurich/zurich_bt_italic-webfont.ttf') format('truetype'),url('fonts/zurich/zurich_bt_italic-webfont.svg#zurich_btitalic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'zurich_btbold_italic';
-    src: url('fonts/zurich/zurich_bt_bold_italic-webfont.eot');
-    src: url('fonts/zurich/zurich_bt_bold_italic-webfont.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/zurich_bt_bold_italic-webfont.woff') format('woff'),url('fonts/zurich/zurich_bt_bold_italic-webfont.ttf') format('truetype'),url('fonts/zurich/zurich_bt_bold_italic-webfont.svg#zurich_btbold_italic') format('svg');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ZurichBT-RomanCondensed';
-    src: url('fonts/zurich/275D52_1_0.eot');
-    src: url('fonts/zurich/275D52_1_0.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/275D52_1_0.woff') format('woff'),url('fonts/zurich/275D52_1_0.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ZurichBT-BoldCondensed';
-    src: url('fonts/zurich/275D52_2_0.eot');
-    src: url('fonts/zurich/275D52_2_0.eot?#iefix') format('embedded-opentype'),url('fonts/zurich/275D52_2_0.woff') format('woff'),url('fonts/zurich/275D52_2_0.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'ActaDisplay-Medium';
-    src: url('fonts/actadisplay/275D52_3_0.eot');
-    src: url('fonts/actadisplay/275D52_3_0.eot?#iefix') format('embedded-opentype'),url('fonts/actadisplay/275D52_3_0.woff') format('woff'),url('fonts/actadisplay/275D52_3_0.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-/*! @license
- *
- * Webfont: Sweden Sans
- * Copyright (c) 2013 by Svenska Institutet. All rights reserved.
- *
-*/
-
-@font-face {
-    font-family: 'SwedenSans';
-    src: url('fonts/swedensans/SwedenSans.eot');
-    src: url('fonts/swedensans/SwedenSans.eot?#iefix') 
-         format('embedded-opentype'), url('fonts/swedensans/SwedenSans.woff') 
-         format('woff'),url('fonts/swedensans/SwedenSans.ttf') 
-         format('truetype'),url('fonts/swedensans/SwedenSans.svg#wf') 
-         format('svg'),url('fonts/swedensans/SwedenSans.svgz#wf') 
-         format('svg');
-}
 
 .absolute-center {
     width: 50%;
@@ -340,12 +240,6 @@ h2, h3, h4 {
     -webkit-font-smoothing: antialiased;
     font-weight: normal;
     font-style: normal;
-}
-
-strong, b {
-    font-weight: normal;
-    font-style: normal;
-    font-family: 'ZurichBT-BoldCondensed';
 }
 
 button {
@@ -554,7 +448,6 @@ hr {
     }
 
     .breadcrumb a {
-        font-family: 'ZurichBT-BoldCondensed';
         margin-right: 10px;
         color: #fff;
         white-space: nowrap;
@@ -638,7 +531,6 @@ nav.tags-menu li {
 
     .single nav.tags-menu h3 {
         font-weight: normal;
-        font-family: 'ZurichBT-BoldCondensed';
         font-size: 1em;
         margin-bottom: 10px;
     }
@@ -654,7 +546,6 @@ nav.tags-menu li {
 
 .single .last-updated {
     margin: 30px 5%;
-    font-family: 'ZurichBT-Roman';
 }
 
 .tags-menu + .author-info {
@@ -697,7 +588,6 @@ nav.tags-menu li {
 
         .author-info .text h3 {
             font-weight: normal;
-            font-family: 'ZurichBT-BoldCondensed';
             font-size: 1em;
             margin: -3px 0 -6px 0;
         }
@@ -936,7 +826,6 @@ nav.tags-menu li {
     .yellow-footer .menu-footer-page-links-container {
         width: 100%;
         font-size: .824em;
-        font-family: 'ZurichBT-BoldCondensed';
         margin-bottom: 35px;
         padding-bottom: 20px;
         border-bottom: 1px solid #FFFFFF;
@@ -1391,7 +1280,6 @@ nav.tags-menu li {
     }
 
     .home .header .clear, .page-template-page-factsheets-php .header .clear {
-        font-family: 'ZurichBT-BoldCondensed';
         font-size: .765em;
         color: #ffcb05;
         position: absolute;
@@ -1463,14 +1351,9 @@ nav.tags-menu li {
             }
 
             .home .header nav.category-menu li .selected, .page-template-page-factsheets-php .header nav.category-menu li .selected {
-                font-family: 'ZurichBT-BoldCondensed';
                 opacity: 1;
                 color: #00aae9;
             }
-
-                .home .header nav.category-menu li .selected span, .page-template-page-factsheets-php .header nav.category-menu li .selected span {
-                    font-family: 'ZurichBT-RomanCondensed';
-                }
 
     .home .header nav.social-links, .page-template-page-factsheets-php .header nav.social-links {
         display: block;
@@ -1539,7 +1422,6 @@ nav.tags-menu li {
 
     .home .sorting-container label, .page-template-page-factsheets-php .sorting-container label {
         display: none;
-        font-family: 'ZurichBT-BoldCondensed';
         margin-right: 20px;
     }
 
@@ -1647,13 +1529,11 @@ nav.tags-menu li {
         }
 
         .home .articles article.shortfact h2, .page-template-page-factsheets-php .articles article.shortfact h2 {
-            font-family: 'ZurichBT-BoldCondensed';
             font-weight: normal;
             margin: 0;
         }
 
         .home .articles article.shortfact h3, .page-template-page-factsheets-php .articles article.shortfact h3 {
-            font-family: 'SwedenSans';
             font-size: .9375em;
             font-weight: normal;
             text-transform: uppercase;
@@ -1673,7 +1553,6 @@ nav.tags-menu li {
                 .home .articles article.collection header h2, .page-template-page-factsheets-php .articles article.collection header h2 {
                     letter-spacing: .05em;
                     padding: 34px 18px 0 18px;
-                    font-family: 'SwedenSans';
                     font-weight: normal;
                     text-transform: uppercase;
                     font-size: 2.765em;
@@ -1683,7 +1562,6 @@ nav.tags-menu li {
 
                 .home .articles article.collection header h3, .page-template-page-factsheets-php .articles article.collection header h3 {
                     padding: 0 18px;
-                    font-family: 'ZurichBT-RomanCondensed';
                     text-transform: uppercase;
                     font-size: .824em;
                     margin-left: 4px;
@@ -1713,19 +1591,16 @@ nav.tags-menu li {
         }
 
             .home .articles article header h2, .page-template-page-factsheets-php .articles article header h2 {
-                font-family: 'SwedenSans';
                 font-weight: normal;
                 font-size: 1.176em;
             }
 
             .home .articles article header h3, .page-template-page-factsheets-php .articles article header h3 {
-                font-family: 'SwedenSans';
                 font-weight: normal;
                 font-size: 1.176em;
             }
 
             .home .articles article header ul, .page-template-page-factsheets-php .articles article header ul {
-                font-family: 'ZurichBT-BoldCondensed';
                 text-transform: uppercase;
                 font-size: .706em;
                 margin-bottom: 2px;
@@ -1797,7 +1672,6 @@ nav.tags-menu li {
 
     .empty-match-info-box h2 {
         margin: 0;
-        font-family: 'ZurichBT-BoldCondensed';
         font-weight: normal;
         font-size: 3.125em;
         margin-top: 20px;
@@ -1805,7 +1679,6 @@ nav.tags-menu li {
     }
 
     .empty-match-info-box p {
-        font-family: 'ZurichBT-RomanCondensed';
         font-size: 1.25em;
         margin: 0;
     }
@@ -1941,18 +1814,15 @@ nav.tags-menu li {
 }
 
 .single b, .single strong {
-    font-family: 'zurich_btbold';
     font-weight: normal;
 }
 
 .single i, .single em {
-    font-family: 'zurich_btitalic';
     font-weight: normal;
     font-style: normal;
 }
 
     .single i b, .single em b, .single i strong, .single em strong, .single b i, .single b em, .single strong i, .single strong em {
-        font-family: 'zurich_btbold_italic';
         font-weight: normal;
         font-style: normal;
     }
@@ -2100,7 +1970,6 @@ nav.tags-menu li {
     }
 
     .single .header .clear {
-        font-family: 'ZurichBT-BoldCondensed';
         font-size: .765em;
         color: #ffcb05;
         position: absolute;
@@ -2160,14 +2029,6 @@ nav.tags-menu li {
                 margin-left: 4px;
                 color: #c2c1c1;
             }
-
-            .single .header nav.category-menu li .selected {
-                font-family: 'ZurichBT-BoldCondensed';
-            }
-
-                .single .header nav.category-menu li .selected span {
-                    font-family: 'ZurichBT-RomanCondensed';
-                }
 
     .single .header nav.tags-menu button {
         font-size: .824em;
@@ -2394,10 +2255,6 @@ nav.tags-menu li {
         left: 0;
     }
 
-    .single footer.entry-meta h2 span {
-        font-family: 'ZurichBT-BoldCondensed';
-    }
-
 .single footer.entry-meta .related-articles {
     background: #f4f4f4;
     padding-top: 58px;
@@ -2431,14 +2288,12 @@ nav.tags-menu li {
         }
 
             .single footer.entry-meta .footer-content article .text h2 {
-                font-family: 'UniversLTStd-BoldCn';
                 font-size: .706em;
                 list-style: none outside none;
                 text-transform: uppercase;
             }
 
             .single footer.entry-meta .footer-content article .text h3 {
-                font-family: 'SwedenSans';
                 font-weight: normal;
                 font-size: 1.176em;
             }
@@ -2551,7 +2406,6 @@ nav.tags-menu li {
         background: #f8f8f8;
         margin-bottom: 30px;
         padding: 20px;
-        font-family: 'ZurichBT-Roman';
     }
 
         .segment aside img, .segment aside iframe {
@@ -2676,7 +2530,6 @@ nav.tags-menu li {
         .segment.pdf-segment .si-pdf .files a {
             float: left;
             text-indent: 5px;
-            font-family: 'ZurichBT-RomanCondensed';
             padding: 0;
         }
 
@@ -2710,7 +2563,6 @@ nav.tags-menu li {
     .image-text-container .image-text h2, .image-text-container .image-text h3 {
         font-size: 1em;
         margin: 0 0 8px 0;
-        font-family: 'ZurichBT-BoldCondensed';
         font-weight: normal;
     }
 
@@ -2720,7 +2572,6 @@ nav.tags-menu li {
     }
 
         .image-text-container .image-text p strong, .image-text-container .image-text p b {
-            font-family: 'ZurichBT-BoldCondensed';
             font-weight: normal;
         }
 
@@ -2730,7 +2581,6 @@ nav.tags-menu li {
     }
 
         .image-text-container .image-description p strong, .image-text-container .image-description p b {
-            font-family: 'ZurichBT-BoldCondensed';
             font-weight: normal;
         }
 
@@ -2784,7 +2634,6 @@ nav.tags-menu li {
         }
 
         .single.single-article_collection .entry-header .header-content h2.short_description {
-            font-family: 'ZurichBT-Roman';
             font-size: 1.176em;
             font-weight: normal;
             margin-bottom: 26px;
@@ -2799,7 +2648,6 @@ nav.tags-menu li {
         }
 
         .single.single-article_collection .entry-header .header-content p strong, .single.single-article_collection .entry-header .header-content p b {
-            font-family: 'zurich_btbold';
             font-size: 1.17em;
             line-height: 1.4em;
             font-weight: normal;
@@ -2843,7 +2691,6 @@ nav.tags-menu li {
             }
 
                 .single.single-article_collection .entry-header .collection-content .articles article .text h2 {
-                    font-family: 'UniversLTStd-BoldCn';
                     font-size: .706em;
                     list-style: none outside none;
                     text-transform: uppercase;
@@ -2851,7 +2698,6 @@ nav.tags-menu li {
                 }
 
                 .single.single-article_collection .entry-header .collection-content .articles article .text h3 {
-                    font-family: 'SwedenSans';
                     font-weight: normal;
                     font-size: 1.176em;
                 }
@@ -2900,7 +2746,6 @@ nav.tags-menu li {
 
     .single #comments .comments-title {
         text-align: center;
-        font-family: 'ActaDisplay-Medium';
         font-weight: normal;
         font-size: 1.764em;
     }
@@ -2938,7 +2783,6 @@ nav.tags-menu li {
 
                 .single #comments .commentlist article section p {
                     margin: 0;
-                    font-family: 'ZurichBT-Roman';
                 }
 
             .single #comments .commentlist article footer {
@@ -2991,7 +2835,6 @@ nav.tags-menu li {
 
     .single #comments #respond h3 {
         text-align: center;
-        font-family: 'ActaDisplay-Medium';
         font-weight: normal;
         font-size: 1.764em;
     }
@@ -3009,7 +2852,6 @@ nav.tags-menu li {
     .single #comments #respond form label {
         font-size: .765em;
         margin-bottom: 8px;
-        font-family: 'ZurichBT-BoldCondensed';
         color: #005293;
         display: block;
     }
@@ -3027,7 +2869,6 @@ nav.tags-menu li {
         width: 100%;
         border: 1px solid #000;
         font-size: .941em;
-        font-family: 'ZurichBT-RomanCondensed';
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
         box-sizing: border-box;
@@ -3050,7 +2891,6 @@ nav.tags-menu li {
     .single #comments #respond form .form-submit input[type="submit"] {
         width: 100%;
         border: 0;
-        font-family: 'ZurichBT-BoldCondensed';
         background-color: #005293;
         color: #FFF;
         text-transform: uppercase;
@@ -3258,7 +3098,6 @@ nav.tags-menu li {
         padding: 18px 23px;
         font-size: 1em;
         text-transform: uppercase;
-        font-family: 'ZurichBT-BoldCondensed';
         float: right;
         margin-top: 35px;
         width: 100%;
@@ -3486,7 +3325,6 @@ nav.tags-menu li {
 
                 .ribbon > header nav ul li a {
                     color: #005293;
-                    font-family: 'ZurichBT-BoldCondensed';
                     font-size: .882em;
                     text-transform: uppercase;
                 }
@@ -3576,7 +3414,6 @@ nav.tags-menu li {
                 }
 
             .ribbon .body article h2, .ribbon .body article h3 {
-                font-family: 'SwedenSans';
                 font-size: 1.176em;
                 font-weight: normal;
                 margin-bottom: 12px;
@@ -3637,7 +3474,6 @@ nav.tags-menu li {
                         }
 
                         .ribbon .body nav ul li a h2 {
-                            font-family: 'SwedenSans';
                             font-size: 1.176em;
                             font-weight: normal;
                             margin-bottom: 12px;
@@ -3645,7 +3481,6 @@ nav.tags-menu li {
 
                         .ribbon .body nav ul li a p {
                             font-size: .882em;
-                            font-family: 'ZurichBT-BoldCondensed';
                             margin: 0;
                         }
 
@@ -3744,7 +3579,6 @@ nav.tags-menu li {
                 padding: 18px 23px;
                 font-size: 1em;
                 text-transform: uppercase;
-                font-family: 'ZurichBT-BoldCondensed';
                 float: right;
                 margin-top: 35px;
                 width: 100%;
@@ -4248,13 +4082,11 @@ body #container {
                 color: #FFF;
                 border-bottom: 1px solid rgba(255,255,255,0.2);
                 text-transform: uppercase;
-                font-family: 'ZurichBT-RomanCondensed';
                 font-size: .9375em;
                 padding-bottom: 20px;
             }
 
                 .shortfacts .shortfacts-slides article header strong, .shortfacts .shortfacts-slides article header a {
-                    font-family: 'ZurichBT-BoldCondensed';
                     font-weight: normal;
                 }
 
@@ -4269,28 +4101,23 @@ body #container {
 
                 .shortfacts .shortfacts-slides article footer .read-more {
                     margin-top: 25px;
-                    font-family: 'ZurichBT-RomanCondensed';
                     font-size: 1em;
                 }
 
                     .shortfacts .shortfacts-slides article footer .read-more strong {
-                        font-family: 'ZurichBT-BoldCondensed';
                         font-weight: normal;
                     }
 
                 .shortfacts .shortfacts-slides article footer .tags {
                     margin-top: 25px;
-                    font-family: 'ZurichBT-RomanCondensed';
                     font-size: 1em;
                 }
 
                     .shortfacts .shortfacts-slides article footer .tags strong {
-                        font-family: 'ZurichBT-BoldCondensed';
                         font-weight: normal;
                     }
 
                     .shortfacts .shortfacts-slides article footer .tags .tag {
-                        font-family: 'ZurichBT-RomanCondensed';
                         border-bottom: 0;
                         text-transform: uppercase;
                     }
@@ -4302,13 +4129,11 @@ body #container {
                 .shortfacts .shortfacts-slides article footer p {
                     margin: 0;
                     margin-bottom: 5px;
-                    font-family: 'ZurichBT-RomanCondensed';
                     font-size: .9375em;
                 }
 
                 .shortfacts .shortfacts-slides article footer a {
                     display: inline-block;
-                    font-family: 'SwedenSans';
                     font-size: 1em;
                     border-bottom: 1px solid #FFF;
                 }
@@ -4357,7 +4182,6 @@ body #container {
             }
 
                 .shortfacts .shortfacts-slides article .box .above, .shortfacts .shortfacts-slides article .box .below {
-                    font-family: 'SwedenSans';
                     font-size: 1em;
                     margin: 0;
                     padding: 0;
@@ -4365,7 +4189,6 @@ body #container {
                 }
 
                 .shortfacts .shortfacts-slides article .box h1 {
-                    font-family: 'ZurichBT-BoldCondensed';
                     font-size: 5em;
                     font-weight: normal;
                     margin: 0;
@@ -4619,7 +4442,6 @@ body #container {
         padding-top: 15%;
         padding-bottom: 20px;
         color: #005293;
-        font-family: 'SwedenSans';
     }
 
         .error404 .wrapper .logo {
@@ -4681,7 +4503,6 @@ body #container {
             }
 
         .error404 .wrapper .sender {
-            font-family: 'ZurichBT-RomanCondensed';
             font-size: 1.176em;
             position: relative;
             top: 24px;
@@ -5406,7 +5227,6 @@ body #container {
         color: #005293;
         font-size: 11px;
         font-weight: normal;
-        font-family: 'ZurichBT-BoldCondensed',Arial,serif;
         text-align: left;
         text-transform: uppercase;
         line-height: 10px;
@@ -5588,14 +5408,12 @@ body #container {
                             margin: 0 0 8px 0;
                             font-size: 20px;
                             font-weight: normal;
-                            font-family: 'SwedenSans',Times,serif;
                             line-height: 20px;
                         }
 
                         #si-curtain-nav .si-curtain-content ul li .item-container .curtain-item-content p {
                             margin: 0;
                             font-size: 15px;
-                            font-family: 'ZurichBT-Roman',Arial,serif;
                             line-height: 17px;
                         }
 
@@ -6173,7 +5991,6 @@ body #container {
         }
 
             .single.single-article_collection .entry-header .collection-content .secondary-text p {
-                font-family: 'ZurichBT-Roman';
                 font-size: 1.176em;
                 margin: 0 0 13px 0;
             }
