@@ -874,8 +874,6 @@ nav.tags-menu li {
             margin-bottom: 0;
             line-height: 1.2em;
             font-size: 1.3em;
-            text-transform: uppercase;
-            font-family: 'SwedenSans';
             padding-bottom: 20px;
         }
 
@@ -883,7 +881,6 @@ nav.tags-menu li {
             margin-bottom: 0;
             color: #FFFFFF;
             font-size: 1em;
-            font-family: 'ZurichBT-RomanCondensed',sans-serif;
         }
 
         .yellow-footer .text-container a {
@@ -897,8 +894,7 @@ nav.tags-menu li {
         }
 
         .yellow-footer .text-container .tag-line {
-            font-size: .941em;
-            font-family: 'ZurichBT-BoldCondensed';
+            font-size: 1em;
             margin-bottom: 17px;
         }
 
@@ -1115,7 +1111,6 @@ nav.tags-menu li {
     .yellow-footer .menu-footer-social-links-container {
         width: 180px;
         font-size: .824em;
-        font-family: 'ZurichBT-BoldCondensed';
         margin-top: 5px;
     }
 
