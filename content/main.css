@@ -755,23 +755,6 @@ hr {
             border-bottom: 2px solid #FFFFFF;
         }
 
-        .yellow-footer .menu-footer-links-container li.sweden a {
-            width: 180px;
-            height: 53px;
-        }
-
-            .yellow-footer .menu-footer-links-container li.sweden a:before {
-                width: 180px;
-                height: 53px;
-                top: 3px;
-                left: 0;
-                position: absolute;
-                background: url(../img/sprites.png) no-repeat;
-                background-position: 0 -650px;
-                color: transparent;
-                content: '';
-            }
-
         .yellow-footer .menu-footer-links-container li.si a {
             width: 68px;
             height: 47px;
@@ -3539,20 +3522,6 @@ hr {
                             position: absolute;
                             top: 0;
                             left: 0;
-                        }
-
-                    .ribbon > footer nav ul li.sweden a {
-                        width: 122px;
-                        height: 37px;
-                    }
-
-                        .ribbon > footer nav ul li.sweden a:before {
-                            top: 12px;
-                            position: absolute;
-                            background: url(../img/sprites.png) no-repeat;
-                            background-position: 0 -150px;
-                            color: transparent;
-                            content: '';
                         }
 
                     .ribbon > footer nav ul li.si a {
