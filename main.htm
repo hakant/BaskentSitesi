@@ -5,12 +5,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1 ">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./content/favicon.ico">
     <link rel="stylesheet" href="./content/main.css" type="text/css" media="all">
     
-    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.0/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="./content/modernizr-2.6.2.min.js"></script>
     
     <title>Baskent Sitesi</title>
@@ -37,7 +36,7 @@
                             <p>
                                 İstanbul ve Ankara’ya yakın mesafede, Karadeniz kıyısında, yeşilliği, yarı olimpik havuzu ve sosyal tesisleriyle 80 konutluk bir cennet
                             </p>
-                            <a id="goto-article" class="button" href="http://localhost:50876/main.htm#start">
+                            <a id="goto-article" class="button" href="#start">
                                 Detaylar
                             </a>
                         </div>
@@ -48,8 +47,8 @@
                     <div class="image-text">
                         <p>Başkent Sitesinde 5 kulvarlı yarı olimpik havuz bulunmaktadır. Tabii ki çocukları da unutmadık!</p>
                     </div><div class="image-description">
-                        <p>Fotoğraf havuza hemen karşıdan bakan villa'nın terasından çekildi.</p>
-                    </div>
+                              <p>Fotoğraf havuza hemen karşıdan bakan villa'nın terasından çekildi.</p>
+                          </div>
                 </div>
                 <div id="start" class="start">
                     <section class="segment text-segment clearfix  aside">
@@ -123,31 +122,24 @@
                     <section class="segment text-segment clearfix  aside">
                         <div class="only-text">
                             <h2>Satılık Villalar</h2>
-                            <p>Sahibini bekleyen 7 adet villamız kaldı.</p>
                             <p>
-                                <ul>
-                                    <li>Kuş bakışı siteyi gösteren bir imaj.</li>
-                                    <li>Kuş bakışı imaj üzerinde bu 7 adet villa numaralandırılmış ya da isimlendirilmiş olarak işaretlenmeli. Mümkünse tıklanabilir olmalı.</li>
-                                    <li>Her villa'nın kendine özgü bir ismi olacak. Karadeniz bölgesinin tarihi ve turistik önemli yerleri villaların isimlerini verecek.</li>
-                                    <li>Kuş bakışı resimdeki kumsal ve deniz bölümünü okunaklı olarak tekrar yaz. Mavi ile...</li>
-                                </ul>
+                                Sahibini bekleyen 7 adet villamız kaldı. Aşağıda yer alan kuşbakışı site haritasında işaretlenmiş villaları görebilirsiniz. Daha detaylı bilgi almak istediginiz villanın üzerini tıklayabilirsiniz.
                             </p>
                         </div>
                     </section>
                     <section class="segment media-segment clearfix">
                         <div class="only-image fit-column">
-                            <img alt="Baskent Sitesi Havuz ve Bahce" title="Baskent Sitesi Havuz ve Bahce" src="./baskent/map.png">
-                            <div class="image-text-container">
-                                <div class="image-text">
-                                    <p>Deniz tarafındaki villalardan birinin terasından site manzarası.</p>
-                                    <p>Sosyal tesisler, yesillik ve havuz.</p>
-                                </div><div class="image-description"></div>
-                            </div>
+                            <img id="BaskentMapImage" alt="Baskent Sitesi Havuz ve Bahce" title="Baskent Sitesi Havuz ve Bahce" src="./baskent/map.png" usemap="#image-maps">
+                            <map name="image-maps" id="BaskentMap">
+                                <area shape="rect" coords="476,282,602,339" alt="" title="" target="_self" href="#villa_abant" />
+                                <area shape="rect" coords="476,466,602,525" alt="" title="" target="_self" href="#villa_goynuk" />
+                                <area shape="rect" coords="474,527,604,584" alt="" title="" target="_self" href="#villa_zigana" />
+                            </map>
                         </div>
                     </section>
-                    <section class="segment text-segment clearfix  aside">
+                    <section id="villa_abant" class="segment text-segment clearfix  aside">
                         <div class="only-text">
-                            <h2>Villa #1</h2>
+                            <h2>Villa Abant</h2>
                             <p>
                                 <ul>
                                     <li>Villa ile ilgili bilgiler (fiyat dahil)</li>
@@ -167,9 +159,9 @@
                             </div>
                         </div>
                     </section>
-                    <section class="segment text-segment clearfix  aside">
+                    <section id="villa_goynuk" class="segment text-segment clearfix  aside">
                         <div class="only-text">
-                            <h2>Villa #2</h2>
+                            <h2>Villa Göynük</h2>
                             <p>
                                 <ul>
                                     <li>Villa ile ilgili bilgiler (fiyat dahil)</li>
@@ -189,9 +181,9 @@
                             </div>
                         </div>
                     </section>
-                    <section class="segment text-segment clearfix  aside">
+                    <section id="villa_zigana" class="segment text-segment clearfix  aside">
                         <div class="only-text">
-                            <h2>Villa #3</h2>
+                            <h2>Villa Zigana</h2>
                             <p>
                                 <ul>
                                     <li>Villa ile ilgili bilgiler (fiyat dahil)</li>
@@ -243,5 +235,11 @@
             </article>
         </div>
     </div>
+    <script src="./content/rwdImageMaps.min.js"></script>
+    <script type="text/javascript" language="javascript">
+        $(function () {
+            $('img[usemap]').rwdImageMaps();
+        });
+    </script>
 </body>
 </html>
