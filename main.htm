@@ -8,10 +8,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="./content/favicon.ico">
     <link rel="stylesheet" href="./content/main.css" type="text/css" media="all">
-    
+    <link rel="stylesheet" href="content/responsiveslides.css" />
+
     <script type="text/javascript" src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
     <script src="./content/modernizr-2.6.2.min.js"></script>
-    
+    <script src="./content/responsiveslides.min.js"></script>
     <title>Baskent Sitesi</title>
 </head>
 <body class="single windows">
@@ -64,6 +65,19 @@
                             </p>
                         </div>
                     </section>
+                    <section class="segment media-segment clearfix">
+                        <div class="only-image fit-column wider">
+                            <ul class="rslides">
+                                <li>
+                                    <img src="content/kenburns/IMG_0491.JPG" />
+                                    <p class="caption">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                                </li>
+                                <li><img src="content/kenburns/IMG_0492.JPG" /></li>
+                                <li><img src="content/kenburns/IMG_0495.JPG" /></li>
+                                <li><img src="content/kenburns/IMG_0499.JPG" /></li>
+                            </ul>
+                        </div>
+                    </section>
                     <section class="segment text-segment clearfix  aside">
                         <div class="only-text">
                             <h2>Ulaşım</h2>
@@ -109,7 +123,7 @@
                         </div>
                     </section>
                     <section class="segment media-segment clearfix">
-                        <div class="only-image fit-column">
+                        <div class="only-image fit-column wider">
                             <img alt="Baskent Sitesi Havuz ve Bahce" title="Baskent Sitesi Havuz ve Bahce" src="./baskent/Baskent_Havuz_Bahce.jpg">
                             <div class="image-text-container">
                                 <div class="image-text">
@@ -149,7 +163,7 @@
                         </div>
                     </section>
                     <section class="segment media-segment clearfix">
-                        <div class="only-image fit-column">
+                        <div class="only-image fit-column wider">
                             <img alt="Başkent Sitesi Spor Alanları" title="Başkent Sitesi Spor Alanları" src="./baskent/Baskent_Spor_Alanlari.jpg">
                             <div class="image-text-container">
                                 <div class="image-text">
@@ -171,7 +185,7 @@
                         </div>
                     </section>
                     <section class="segment media-segment clearfix">
-                        <div class="only-image fit-column">
+                        <div class="only-image fit-column wider">
                             <img alt="Başkent Sitesi Yeşillik ve Deniz" title="Başkent Sitesi Yeşillik ve Deniz" src="./baskent/Baskent_Yesillik_Deniz.jpg">
                             <div class="image-text-container">
                                 <div class="image-text">
@@ -240,6 +254,36 @@
         $(function () {
             $('img[usemap]').rwdImageMaps();
         });
+
+        $(".rslides").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            pause: true,
+            speed: 1000,
+            timeout: 10000,
+            maxwidth: 900,
+            namespace: "centered-btns"
+        });
+
+        //$(".rslides").responsiveSlides({
+        //    auto: true,             // Boolean: Animate automatically, true or false
+        //    speed: 500,             // Integer: Speed of the transition, in milliseconds
+        //    timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
+        //    pager: true,            // Boolean: Show pager, true or false
+        //    nav: true,              // Boolean: Show navigation, true or false
+        //    random: false,          // Boolean: Randomize the order of the slides, true or false
+        //    pause: false,           // Boolean: Pause on hover, true or false
+        //    pauseControls: true,    // Boolean: Pause when hovering controls, true or false
+        //    prevText: "Previous",   // String: Text for the "previous" button
+        //    nextText: "Next",       // String: Text for the "next" button
+        //    maxwidth: "",           // Integer: Max-width of the slideshow, in pixels
+        //    navContainer: "",       // Selector: Where controls should be appended to, default is after the 'ul'
+        //    manualControls: "",     // Selector: Declare custom pager navigation
+        //    namespace: "rslides",   // String: Change the default namespace used
+        //    before: function () { },   // Function: Before callback
+        //    after: function () { }     // Function: After callback
+        //});
     </script>
 </body>
 </html>
