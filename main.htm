@@ -70,11 +70,20 @@
                             <ul class="rslides">
                                 <li>
                                     <img src="content/kenburns/IMG_0491.JPG" />
-                                    <p class="caption">Pellentesque ornare sem lacinia quam venenatis vestibulum.</p>
+                                    <p class="caption">Baskent sitesinin yarı olimpik havuzu</p>
                                 </li>
-                                <li><img src="content/kenburns/IMG_0492.JPG" /></li>
-                                <li><img src="content/kenburns/IMG_0495.JPG" /></li>
-                                <li><img src="content/kenburns/IMG_0499.JPG" /></li>
+                                <li>
+                                    <img src="content/kenburns/IMG_0492.JPG" />
+                                    <p class="caption">Villa Abant'ın terasından site görüntüsü</p>
+                                </li>
+                                <li>
+                                    <img src="content/kenburns/IMG_0495.JPG" />
+                                    <p class="caption">Villa Abant'ın terasından sosyal tesisler ve bahçe görüntüsü</p>
+                                </li>
+                                <li>
+                                    <img src="content/kenburns/IMG_0499.JPG" />
+                                    <p class="caption">Doğayla iç içe pırıl pırıl bir güne uyanmak burada bambaska...</p>
+                                </li>
                             </ul>
                         </div>
                     </section>
@@ -228,8 +237,6 @@
                             </div>
                             <div class="column">
                                 <div class="right-column-container">
-                                    <p class="tag-line">Bu site <a class="twitter-link" title="@hakant" href="https://www.twitter.com/hakant" target="_blank">@hakant</a> tarafından dizayn edilmiştir.</p>
-
                                     <!--Put classes on li elements and arrange background on css-->
                                     <nav class="menu-footer-links-container">
                                         <ul id="menu-footer-links" class="nav-menu">
@@ -241,6 +248,7 @@
                                         </ul>
                                     </nav>
                                     <p class="copyright">Copyright © 2014 Başkent Konutları.</p>
+                                    <p class="copyright">Designed by <a class="twitter-link" title="@hakant" href="https://www.twitter.com/hakant" target="_blank">@hakant</a></p>
                                 </div>
                             </div>
                         </div>
@@ -258,11 +266,10 @@
         $(".rslides").responsiveSlides({
             auto: true,
             pager: true,
-            nav: true,
+            nav: false,
             pause: true,
             speed: 1000,
-            timeout: 10000,
-            maxwidth: 900,
+            timeout: 6000,
             namespace: "centered-btns"
         });
 
