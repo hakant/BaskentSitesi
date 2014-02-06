@@ -54,17 +54,6 @@ dfn {
     font-style: italic;
 }
 
-hr {
-    -moz-box-sizing: content-box;
-    box-sizing: content-box;
-    height: 0;
-}
-
-mark {
-    background: #ff0;
-    color: #000;
-}
-
 code, kbd, pre, samp {
     font-size: 1em;
 }
@@ -246,12 +235,6 @@ button {
     margin: 0;
     padding: 0;
     color: #fff;
-}
-
-hr {
-    border: 0;
-    border-top: 1px solid #000;
-    border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 
 .search-result {
