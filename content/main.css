@@ -281,6 +281,10 @@ button {
     opacity: .7;
 }
 
+.hide {
+    display: none !important;
+}
+
 .logo {
     position: relative;
     display: inline-block;
@@ -521,6 +525,7 @@ button {
     text-transform: uppercase;
     font-size: .97em;
     width: auto;
+    cursor: pointer;
 }
 
 #article-header {
@@ -5338,7 +5343,7 @@ body #container {
         display: block;
     }
 
-    .reference.single header.entry-header .header-content p.form {
+    .reference.single header.entry-header .header-content p#form {
         padding-left: 220px;
     }
 
@@ -5352,6 +5357,10 @@ body #container {
             box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
         }
 
+        input[type="text"].parsley-error {
+            border-color: red;
+        }
+
     .reference.single .logo {
         position: absolute;
         margin-top: 30px;
@@ -5362,10 +5371,30 @@ body #container {
         z-index: 3;
     }
 
-    .reference.single header.entry-header .header-content .button {
+    .refer-button {
         display: inline-block;
         left: 50%;
-        margin-left: -80px;
+        margin-left: -100px;
         position: absolute;
+        color: #fff;
+        background: #00aae9;
+        position: relative;
+        padding: 15px 0 15px 50px;
+        width: 150px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-size: .97em;
+        cursor: pointer;
+    }
+
+    .refer-button.active {
+        background: gray;
+        padding: 15px 0 15px 10px;
+        width: 180px;
+    }
+
+    p#form ul {
+        display: none;
     }
 }
