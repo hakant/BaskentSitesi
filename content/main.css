@@ -5284,7 +5284,11 @@ body #container {
         }
 }
 
-@media only screen and (min-width:768px) {
+@media all {
+    .single header.entry-header {
+        height: 100%;
+        min-height: 700px;
+    }
     .reference.single header.entry-header .gradient {
         height: 100%;
         width: 100%;
@@ -5343,6 +5347,29 @@ body #container {
         display: block;
     }
 
+    .refer-button {
+        display: inline-block;
+        left: 50%;
+        margin-left: -100px;
+        position: absolute;
+        color: #fff;
+        background: #00aae9;
+        position: relative;
+        padding: 15px 0 15px 50px;
+        width: 150px;
+        -webkit-border-radius: 2px;
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-size: .97em;
+        cursor: pointer;
+    }
+
+    .refer-button.active {
+        background: gray;
+        padding: 15px 0 15px 10px;
+        width: 180px;
+    }
+
     .reference.single header.entry-header .header-content p#form {
         padding-left: 220px;
     }
@@ -5371,10 +5398,43 @@ body #container {
         z-index: 3;
     }
 
+    p#form ul {
+        display: none;
+    }
+}
+
+@media only screen and (max-width:768px) {
+    .reference.single header.entry-header .header-content {
+        position: absolute;
+        height: 100%;
+        left: 5%;
+        margin-left: 0;
+        width: auto;
+    }
+        .reference.single header.entry-header .header-content .header-content-position {
+            padding: 0 0;
+            position: absolute;
+            top: 15%;
+            margin-left: 0;
+        }
+        .reference.single header.entry-header .header-content h1 {
+            max-width: 100%;
+            text-align: left;
+        }
+        .reference.single header.entry-header .header-content p {
+            text-align: left;
+            padding: 0;
+        }
+
+        .reference input {
+            width: 306px;
+            display: block;
+        }
+
     .refer-button {
         display: inline-block;
-        left: 50%;
-        margin-left: -100px;
+        left: auto;
+        margin-left: 0;
         position: absolute;
         color: #fff;
         background: #00aae9;
@@ -5394,7 +5454,66 @@ body #container {
         width: 180px;
     }
 
+    .reference.single header.entry-header .header-content p#form {
+        padding-left: 0;
+    }
+
+        input[type="text"]:focus {
+            border-color: #1D05F7;
+            border-width: 2px;
+            outline: thick dotted \9;
+            /* IE6-9 */
+            -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+            -moz-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(82, 168, 236, 0.6);
+        }
+
+        input[type="text"].parsley-error {
+            border-color: red;
+        }
+
+    .reference.single .logo {
+        position: absolute;
+        margin-top: 30px;
+        top: 48px;
+        left: 5%;
+        margin: 0;
+        display: block;
+        z-index: 3;
+    }
+
     p#form ul {
         display: none;
+    }
+}
+
+@media only screen and (max-width:450px) {
+
+    .reference.single header.entry-header .header-content h1 {
+        font-size: 1.5em;
+    }
+
+    .reference input {
+        width: 200px;
+        display: block;
+    }
+
+    .refer-button {
+        padding: 15px 5px 15px 15px;
+        width: 80px;
+        font-size: .8em;
+    }
+
+    .refer-button.active {
+        background: gray;
+        padding: 15px 0 15px 10px;
+        width: 100px;
+        font-size: .5em;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    .reference.single header.entry-header .header-content h1 {
+        font-size: 1.2em;
     }
 }
