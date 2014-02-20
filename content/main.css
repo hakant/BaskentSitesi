@@ -5354,7 +5354,6 @@ body #container {
         position: absolute;
         color: #fff;
         background: #00aae9;
-        position: relative;
         padding: 15px 0 15px 50px;
         width: 150px;
         -webkit-border-radius: 2px;
@@ -5438,7 +5437,6 @@ body #container {
         position: absolute;
         color: #fff;
         background: #00aae9;
-        position: relative;
         padding: 15px 0 15px 50px;
         width: 150px;
         -webkit-border-radius: 2px;
@@ -5489,6 +5487,10 @@ body #container {
 
 @media only screen and (max-width:450px) {
 
+    .reference.single header.entry-header .header-content .header-content-position {
+        top: 5%;
+    }
+
     .reference.single header.entry-header .header-content h1 {
         font-size: 1.5em;
     }
@@ -5509,6 +5511,10 @@ body #container {
         padding: 15px 0 15px 10px;
         width: 100px;
         font-size: .5em;
+    }
+
+    .reference.single .logo {
+        display: none;
     }
 }
 
