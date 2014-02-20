@@ -2040,7 +2040,6 @@ button {
         }
 
         .single header.entry-header .header-content .button {
-            display: none;
             margin-bottom: 40px;
         }
 
@@ -5401,6 +5400,37 @@ body #container {
         display: none;
     }
 }
+
+@media only screen and (max-width:768px) {
+    .single header.entry-header .header-content p {
+        margin: 40px 0 35px 0;
+    }
+
+    .button {
+        font-size: 0.7em;
+        padding: 10px 13px 10px 13px;
+    }
+
+    .single header.entry-header .header-content .button:after {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 330px) {
+    .button {
+        font-size: 0.6em;
+        padding: 5px 7px 5px 7px;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .button {
+        font-size: 0.5em;
+        padding: 5px 7px 5px 7px;
+    }
+}
+
+
 
 @media only screen and (max-width:768px) {
     .reference.single header.entry-header .header-content {
