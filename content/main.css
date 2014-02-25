@@ -2028,7 +2028,7 @@ button {
         }
 
         .single header.entry-header .header-content h1 {
-            margin: 0 0 35px 0;
+            margin: 0 0 30px 0;
             font-size: 2.1em;
             font-weight: normal;
             max-width: 640px;
@@ -2040,7 +2040,7 @@ button {
         }
 
         .single header.entry-header .header-content .button {
-            margin-bottom: 40px;
+            margin-bottom: 35px;
         }
 
             .single header.entry-header .header-content .button:after {
