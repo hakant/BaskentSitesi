@@ -64,7 +64,7 @@
                 
                     startLoading();
                 
-                    var client = new WindowsAzure.MobileServiceClient("https://baskentsitesi.azure-mobile.net/", "KAMqawJwfJKOwyYMQjDumPEslkNbfl17");
+                    var client = new WindowsAzure.MobileServiceClient("https://baskentsitesi2.azure-mobile.net/", "KAMqawJwfJKOwyYMQjDumPEslkNbfl17");
 
                     var name = $("#Name").val();
                     var phoneNumber = $("#PhoneNumber").val();
@@ -72,18 +72,19 @@
                     var clientPhoneNumber = $("#ClientPhoneNumber").val();
 
                     var reference = { Name: name, PhoneNumber: phoneNumber, ClientName: clientName, ClientPhoneNumber: clientPhoneNumber };
-                    client.getTable("References").insert(reference).then(
-                        setTimeout(function () {
+                    client.getTable("References").insert(reference).done(function() {
+                        setTimeout(function() {
                             $("#form").addClass("hide");
                             $("#info").addClass("hide");
                             $("#successText").removeClass("hide");
                             $("#refer-people").addClass("hide");
 
                             stopLoading();
-                        }, 2000),
-                        function(error) {
-                            alert(JSON.parse(error.request.responseText).error);
-                        });
+                        }, 2000);
+                    }, function() {
+                        alert("Off..! Bir şeyler yanlış gitti. Lütfen birazdan tekrar deneyin. Kusura bakmayın...");
+                        location.reload();
+                    });
 
                     return false;
                 });
