@@ -64,7 +64,7 @@
                 
                     startLoading();
                 
-                    var client = new WindowsAzure.MobileServiceClient("https://baskentsitesi2.azure-mobile.net/", "KAMqawJwfJKOwyYMQjDumPEslkNbfl17");
+                    var client = new WindowsAzure.MobileServiceClient("https://baskentsitesi.azure-mobile.net/", "KAMqawJwfJKOwyYMQjDumPEslkNbfl17");
 
                     var name = $("#Name").val();
                     var phoneNumber = $("#PhoneNumber").val();
@@ -82,7 +82,7 @@
                             stopLoading();
                         }, 2000);
                     }, function() {
-                        alert("Off..! Bir şeyler yanlış gitti. Lütfen birazdan tekrar deneyin. Kusura bakmayın...");
+                        alert("Off..! Özür dilerim... Bir şeyler yanlış gitti. Lütfen birazdan tekrar deneyin...");
                         location.reload();
                     });
 
